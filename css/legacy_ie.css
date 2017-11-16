@@ -1,0 +1,13 @@
+@charset "utf-8";
+#pageGnb.gnb_comm .wrap_menu {left:-72.22%;}
+.is_menu_open #pageGnb.gnb_comm .wrap_menu {left:0;}
+.scrollable .viewport {width:100%!important;}
+.default-skin.scrollable .horizontal.scroll-bar {width:100%!important;}
+.dimmed_menu {background:#000;opacity:0.7;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";filter: alpha(opacity=70)}
+.is_menu_open .gnb_comm:after {display:none;}
+.is_menu_open .gnb_comm:before, 
+.is_menu_open .gnb_comm .tit_gnb:after  {display:none;}
+.gnb_comm .btn_close .bar_1,
+.gnb_comm .btn_close .bar_2 {display:none;}
+.gnb_comm .btn_close:after {display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.gnb_comm .btn_close:after {font-size:30px;color:#444;content:"\f00d";}
