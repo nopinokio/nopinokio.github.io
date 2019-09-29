@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     
-    <title>자바스크립트 성능 최적화-1 코드 스타일 | Jacop Jun Blog</title>
+    <title>자바스크립트 성능 최적화-1 코드 스타일 | nopinokio blog</title>
     <meta charset="utf-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
@@ -15,17 +15,17 @@
 <meta name="keywords" content="javascript,web,performance">
 <meta property="og:type" content="article">
 <meta property="og:title" content="자바스크립트 성능 최적화-1 코드 스타일">
-<meta property="og:url" content="https://jacopjun.github.io/2017/11/08/1-007-javascript-performance1/index.html">
-<meta property="og:site_name" content="Jacop Jun Blog">
+<meta property="og:url" content="https://nopinokio.github.io/2017/11/08/1-007-javascript-performance1/index.html">
+<meta property="og:site_name" content="nopinokio blog">
 <meta property="og:description" content="nhn은 이렇게 한다 자바스크립트 성능 이야기의 내용들을 발췌하였음바로 활용할 수 있는 부분을만 추려서 요약한다.코드 스타일 부분에서는 크게 아래 3가지를 통해 성능을 향상시킬 수 있다. 변수, 객체 생성 및 접근정규표현식반복문 변수, 객체 생성 및 접근1) 배열 생성 : var arr = []; 이 var arr = new Array() 보다 빠름2) 배">
 <meta property="og:locale" content="ko">
-<meta property="og:updated_time" content="2017-11-16T02:29:16.585Z">
+<meta property="og:updated_time" content="2017-11-16T00:29:18.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="자바스크립트 성능 최적화-1 코드 스타일">
 <meta name="twitter:description" content="nhn은 이렇게 한다 자바스크립트 성능 이야기의 내용들을 발췌하였음바로 활용할 수 있는 부분을만 추려서 요약한다.코드 스타일 부분에서는 크게 아래 3가지를 통해 성능을 향상시킬 수 있다. 변수, 객체 생성 및 접근정규표현식반복문 변수, 객체 생성 및 접근1) 배열 생성 : var arr = []; 이 var arr = new Array() 보다 빠름2) 배">
     
     
-        <link rel="alternate" href="/" title="Jacop Jun Blog" type="application/atom+xml" />
+        <link rel="alternate" href="/" title="nopinokio blog" type="application/atom+xml" />
     
     
     <link rel="stylesheet" href="/libs/font-spoqa-han-sans/style.css">
@@ -67,8 +67,8 @@
 
                 <a href="/" class="link_home">
                     <!-- images/logo-header.png -->
-                    <span class="frame_g"><img src="https://avatars2.githubusercontent.com/u/32302911?s=460&amp;v=4" alt="Jacop Jun profile image"></span>
-                    <span class="txt_user">Jacop Jun Blog</span>
+                    <span class="frame_g"><img src="https://avatars2.githubusercontent.com/u/32302911?s=460&amp;v=4" alt="nopinokio profile image"></span>
+                    <span class="txt_user">nopinokio blog</span>
                 </a>
             </h1>
             <nav id="pageGnb" class="gnb_comm">
@@ -83,8 +83,8 @@
                 <div class="wrap_menu">
                     <div class="inner_menu scr_area default-skin">
                         <div class="info_site">
-                            <span class="frame_g"><img src="https://avatars2.githubusercontent.com/u/32302911?s=460&amp;v=4" alt="Jacop Jun profile image"></span>
-                            <span class="txt_site">Jacop Jun</span>
+                            <span class="frame_g"><img src="https://avatars2.githubusercontent.com/u/32302911?s=460&amp;v=4" alt="nopinokio profile image"></span>
+                            <span class="txt_site">nopinokio</span>
                         </div>
                         <ul class="tt_category">
                             
@@ -303,15 +303,15 @@
 									<dl>
 										<dt class="screen_out">Writer / Category</dt>
 										<dd>
-											<span class="frame_g"><img src="https://avatars2.githubusercontent.com/u/32302911?s=460&amp;v=4" alt="Jacop Jun profile image"></span>
-											<span class="txt_info">Jacop Jun Blog in
+											<span class="frame_g"><img src="https://avatars2.githubusercontent.com/u/32302911?s=460&amp;v=4" alt="nopinokio profile image"></span>
+											<span class="txt_info">nopinokio in
 												<a class="article-category-link" href="/categories/Front-end/">Front-end</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Front-end/javascript/">javascript</a>
 											</span>
 										</dd>
 										
 	<dt class="i_comm ico_date">Date Time</dt>
 	<dd>
-		<time datetime="2017-11-08T12:39:11.000Z" itemprop="datePublished">2017-11-08 오후 9:39:11 <!-- &nbsp;&nbsp;&nbsp;9일 전--></time>
+		<time datetime="2017-11-08T12:39:11.000Z" itemprop="datePublished">2017-11-08 오후 9:39:11 <!-- &nbsp;&nbsp;&nbsp;2년 전--></time>
 	</dd>
 
 									</dl>
@@ -321,7 +321,7 @@
 										<dt class="i_comm ico_cmt">Post Commonet</dt>
 										<dd>
     
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="https://jacopjun.github.io/2017/11/08/1-007-javascript-performance1/">0</span>
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="https://nopinokio.github.io/2017/11/08/1-007-javascript-performance1/">0</span>
     
 
 </dd>
@@ -362,7 +362,7 @@
 
 
 
-    <a data-url="https://jacopjun.github.io/2017/11/08/1-007-javascript-performance1/" data-id="cja29olbx000d3kvnmcvzm5f1" class="article-share-link"><i class="fa fa-share"></i>공유하기</a>
+    <a data-url="https://nopinokio.github.io/2017/11/08/1-007-javascript-performance1/" data-id="ck14hucke000j5gu58j8sd5ba" class="article-share-link"><i class="fa fa-share"></i>공유하기</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -503,17 +503,17 @@
             <li><a href="https://www.facebook.com/MyungIk.Jeon" target="_blank" class="link_fnb">Facebook</a></li>
             <li><a href="/guest-book" class="link_fnb">Guest Book</a></li>
         </ul>
-        <small class="copyright">Designed by Jacop Jun, Powered by Hexo</small>
+        <small class="copyright">Designed by nopinokio, Powered by Hexo</small>
     </div>
 </footer>
 
         
     
     <script>
-    var disqus_shortname = 'jacop-jun-blog';
+    var disqus_shortname = 'nopinokio-blog';
     
     
-    var disqus_url = 'https://jacopjun.github.io/2017/11/08/1-007-javascript-performance1/';
+    var disqus_url = 'https://nopinokio.github.io/2017/11/08/1-007-javascript-performance1/';
     
     (function() {
     var dsq = document.createElement('script');
@@ -549,7 +549,7 @@
 <script src="/js/main.min.js?ver=0.6"></script>
 <script src="/js/ui.min.js?ver=0.6"></script>
 
-    <script type="text/javascript" async="" src="//jacop-jun-blog.disqus.com/count.js"></script>
+    <script type="text/javascript" async="" src="//nopinokio-blog.disqus.com/count.js"></script>
 
 
     </div>
